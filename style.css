@@ -1,0 +1,146 @@
+* {
+  background-color: #fff;
+  color: black;
+  font-family: "ms ui gothic";
+}
+
+
+h1 {}
+
+h2 {
+  float: right;
+  font-size: 15px;
+
+}
+
+h3 {
+  display: inline;
+  font-size: 15px;
+}
+
+.kilns {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 35px;
+}
+
+.photo {
+  width: 50%;
+}
+
+.contact {
+  padding: 0 0 0 10px;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.selected {
+  padding: 0 0px;
+}
+
+.dot1 {
+  height: 75px;
+  width: 75px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  border-style: solid;
+}
+
+.dot2 {
+  height: 75px;
+  width: 75px;
+  background-color: #000000;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot3 {
+  height: 75px;
+  width: 75px;
+  background-color: #ff0000;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot4 {
+  height: 75px;
+  width: 75px;
+  background-color: #0019ff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.container {
+  display: flex;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+}
+
+.column {
+  padding: 50px;
+  flex: 1;
+  color: white;
+}
+
+.screenshot {
+  width: 70%;
+  padding: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stylephoto {
+  width: 30%;
+}
+
+nav
+{
+  /* border: solid red 1px; */
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+padding-bottom: 1em;
+}
+
+.link {
+  font-size: 15px;
+}
+
+/* unvisited link */
+a:link {
+  color: #ff0000;
+  /*padding-right: 1em;*/
+}
+
+/* visited link */
+a:visited {
+  color: #ff0000;
+}
+
+/* mouse over link */
+a:hover {
+  color: #1900ff;
+}
+
+/* selected link */
+a:active {
+  color: #1900ff;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
